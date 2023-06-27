@@ -1,5 +1,7 @@
 package com.auto.servisas.meistras;
 
-public class MeistrasRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MeistrasRepository extends JpaRepository<Meistras, Long> {
 
 }
